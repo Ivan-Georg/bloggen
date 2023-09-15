@@ -1,0 +1,81 @@
+/* Grundläggande CSS-stilar */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #cbc4c4;
+}
+
+header {
+    max-width: 1000px;
+    position: relative;    
+    background-color: #8a8b7b;
+    color: #fff;
+    padding: 20px 0;
+    text-align:center;
+    border-radius: 40%;
+    overflow: hidden; 
+}
+header img
+{
+    display: block;
+    float: left;   
+    margin-right: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+header h1
+{
+    display: block;
+   
+    
+    text-align: center;
+}
+header nav
+{
+
+color:#fff;
+text-align: center;
+text-decoration: none;}
+
+header a{
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover{  
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+main 
+{
+    display: block;
+    position: relative;
+    max-width: 920px;
+    margin: 20px;    
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    max-width: 1000px;
+    text-align: center;
+    background-color: #8d8e94;
+    color: #fff;
+    padding: 20px 0;
+}
+
